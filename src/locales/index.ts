@@ -5,7 +5,7 @@ const MESSAGES = { errors: { enUS, ptBR } };
 
 const getMessages = (language: 'ptBR' | 'enUS' = 'ptBR') => ({
   errors: {
-    unknownError: MESSAGES.errors[language].unknownError
+    unknownError: MESSAGES.errors[language].unknownError,
   },
 });
 
