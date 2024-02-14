@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
     "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
+    // "moduleResolution": "Node16",
     "module": "commonjs",
-    "target": "es6",
+    "target": "es2016",
     "rootDir": "./src/",
     "outDir": "./build",
+    "resolveJsonModule": true,
     "esModuleInterop": true,
     "strict": true
   },
