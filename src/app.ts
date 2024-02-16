@@ -1,14 +1,16 @@
-import express, { NextFunction, Request, Response } from 'express';
-import { StatusCodes } from 'http-status-codes';
+import express from 'express';
+import 'express-async-errors';
+import router from './routers';
 import errorMiddleware from './middleware/error';
+import notFoundMiddleware from './middleware/notFound';
 
 const app = express();
 
 app.use(express.json());
 
-app.get('/', (_req: Request, _res: Response, next: NextFunction) =>
-  next({ status: StatusCodes.INTERNAL_SERVER_ERROR })
-);
+app.use(router);
+
+app.use('/*', notFoundMiddleware);
 
 app.use(errorMiddleware);
 

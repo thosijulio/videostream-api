@@ -1,3 +1,4 @@
 {
-  "unknownError": "Erro desconhecido. Tente novamente"
+  "unknownError": "Erro desconhecido. Tente novamente.",
+  "routeNotFound": "O recurso solicitado não existe. Verifique a requisição e tente novamente."
 }
