@@ -4,6 +4,6 @@ import controller from '../controllers/';
 const userRouter = express.Router({ mergeParams: true });
 const { userController } = controller;
 
-userRouter.get('/', userController.getAll);
+userRouter.get('/getAll', userController.getAll);
 
 export default userRouter;
