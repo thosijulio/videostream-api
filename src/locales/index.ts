@@ -14,13 +14,13 @@ const getMessages = (language: 'ptBR' | 'enUS' = 'ptBR') => ({
     },
   },
   users: {
-    getAll: {
-      noUsersFound: MESSAGES[language].users.getAll.noUsersFound,
-      pageParamMustBeNumber: MESSAGES[language].users.getAll.pageParamMustBeNumber,
-      pageParamMustBeGreaterThan0: MESSAGES[language].users.getAll.pageParamMustBeGreaterThan0,
-      limitParamMustBeNumber: MESSAGES[language].users.getAll.limitParamMustBeNumber,
-      limitParamMustBeLowerThan50: MESSAGES[language].users.getAll.limitParamMustBeLowerThan50,
-      limitParamMustBeGreaterThan0: MESSAGES[language].users.getAll.limitParamMustBeGreaterThan0,
+    findAll: {
+      noUsersFound: MESSAGES[language].users.findAll.noUsersFound,
+      pageParamMustBeNumber: MESSAGES[language].users.findAll.pageParamMustBeNumber,
+      pageParamMustBeGreaterThan0: MESSAGES[language].users.findAll.pageParamMustBeGreaterThan0,
+      limitParamMustBeNumber: MESSAGES[language].users.findAll.limitParamMustBeNumber,
+      limitParamMustBeLowerThan50: MESSAGES[language].users.findAll.limitParamMustBeLowerThan50,
+      limitParamMustBeGreaterThan0: MESSAGES[language].users.findAll.limitParamMustBeGreaterThan0,
     },
   },
 });

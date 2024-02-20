@@ -1,7 +1,7 @@
-import getAllUsers from './getAll';
+import findAllUsers from './findAll.controller';
 
 const userController = {
-  getAll: getAllUsers,
+  findAll: findAllUsers,
 };
 
 export default userController;

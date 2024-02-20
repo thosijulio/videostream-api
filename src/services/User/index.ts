@@ -1,7 +1,7 @@
-import getAllUsers from './getAllUsers';
+import findAllUsers from './findAll.service';
 
 const userService = {
-  getAll: getAllUsers,
+  findAll: findAllUsers,
 };
 
 export default userService;

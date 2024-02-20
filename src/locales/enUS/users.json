@@ -1,5 +1,5 @@
 {
-  "getAll": {
+  "findAll": {
     "noUsersFound": "No users found.",
     "pageParamMustBeNumber": "'Page' must be a valid number.",
     "pageParamMustBeGreaterThan0": "'Page' must be greater than 0.",

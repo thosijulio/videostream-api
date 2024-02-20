@@ -4,11 +4,11 @@ import getMessages from '../../locales';
 import getLocale from '../getLocale';
 
 // Validate limit and page query params and return their values parsed to integer
-const verifyQueryParamsGetAll = (query: Request['query'], locale: string | undefined) => {
+const verifyQueryParamsfindAll = (query: Request['query'], locale: string | undefined) => {
   const { limit, page } = query;
   const {
     users: {
-      getAll: { limitParamMustBeNumber },
+      findAll: { limitParamMustBeNumber },
     },
   } = getMessages(getLocale(locale));
 
@@ -28,4 +28,4 @@ const verifyQueryParamsGetAll = (query: Request['query'], locale: string | undef
   return [limitParsed, pageParsed]; // Limit and page to be returned by default
 };
 
-export default verifyQueryParamsGetAll;
+export default verifyQueryParamsfindAll;
