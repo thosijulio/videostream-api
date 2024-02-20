@@ -1,12 +1,12 @@
 import { Request, Response } from 'express';
 import { NotFoundError } from '../helpers/CustomizedError';
 import getMessages from '../locales';
-import getLanguage from '../utils/getLanguage';
+import getLocale from '../utils/getLocale';
 
 const notFoundMiddleware = (req: Request, _res: Response) => {
-  const language = getLanguage(req);
+  const { general: generalMessages } = getMessages(getLocale(req.headers.locale));
 
-  throw new NotFoundError(getMessages(language).errors.routeNotFound);
+  throw new NotFoundError(generalMessages.errors.routeNotFound);
 };
 
 export default notFoundMiddleware;

@@ -1,0 +1,9 @@
+{
+  "errors": {
+    "unknownError": "Unknown error. Please try again.",
+    "routeNotFound": "The requested resource does not exist. Check the request and try again."
+  },
+  "success": {
+    "ok": "Ok."
+  }
+}

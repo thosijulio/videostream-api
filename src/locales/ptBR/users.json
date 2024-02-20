@@ -1,3 +1,10 @@
 {
-  "getAllEmpty": "Nenhum usuário encontrado"
+  "getAll": {
+    "noUsersFound": "Nenhum usuário encontrado.",
+    "pageParamMustBeNumber": "'Page' deve ser um número válido.",
+    "pageParamMustBeGreaterThan0": "'Page' deve ser maior que 0.",
+    "limitParamMustBeNumber": "'Limit' deve ser um número válido.",
+    "limitParamMustBeLowerThan50": "'Limit' deve ser menor que 50.",
+    "limitParamMustBeGreaterThan0": "'Limit' deve ser maior que 0."
+  }
 }

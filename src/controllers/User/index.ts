@@ -1,4 +1,4 @@
-import getAllUsers from './getAllUsers';
+import getAllUsers from './getAll';
 
 const userController = {
   getAll: getAllUsers,

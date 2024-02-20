@@ -1,8 +1,8 @@
-import errors from './errors.json';
+import general from './general.json';
 import users from './users.json';
 
 const messages = {
-  errors,
+  general,
   users,
 };
 

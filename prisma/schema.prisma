@@ -7,7 +7,7 @@ generator client {
 
 datasource db {
   provider = "mysql"
-  url      = "mysql://root:1312@127.0.0.1:3306/examplePrisma"
+  url      = env("DATABASE_URL")
 }
 
 model Role {
@@ -24,7 +24,7 @@ model User {
   lastName String
   email String @unique
   document String @unique
-  birthData DateTime @db.Date()
+  birthDate DateTime @db.Date()
   password String
   role Role @relation(fields: [roleId], references: [id])
   roleId Int

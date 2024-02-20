@@ -1,9 +1,10 @@
 import prisma from '../../model';
 
-const getAllUsers = async () => {
-  const users = await prisma.user.findMany();
+const getAllUsers = async (limit: number = 20, page: number = 1) => {
+  const results = await prisma.user.findMany({ skip: page * limit - limit, take: limit });
+  const total = await prisma.user.count();
 
-  return users;
+  return { results, total, next: page * limit < total ? true : false };
 };
 
 export default getAllUsers;
