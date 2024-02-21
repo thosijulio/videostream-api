@@ -24,11 +24,19 @@ const login = async (user: string, password: string, messages: Messages) => {
       ],
       AND: [{ password }],
     },
+    select: {
+      email: true,
+      role: {
+        select: {
+          name: true,
+        },
+      },
+    },
   });
 
   if (UserClient) {
     const PRIVATE_KEY = process.env.JWT_SECRET || 'secret_key';
-    const token = jwt.sign({ userEmail: UserClient.email }, PRIVATE_KEY, { expiresIn: '30d' });
+    const token = jwt.sign({ user: UserClient }, PRIVATE_KEY, { expiresIn: '30d' });
     return token;
   } else {
     return false;
