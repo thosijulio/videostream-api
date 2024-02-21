@@ -15,6 +15,12 @@ export class BadRequestError extends CustomizedError {
   }
 }
 
+export class InternalServerError extends CustomizedError {
+  constructor(message: string) {
+    super(message, StatusCodes.INTERNAL_SERVER_ERROR);
+  }
+}
+
 export class UnauthorizedError extends CustomizedError {
   constructor(message: string) {
     super(message, StatusCodes.UNAUTHORIZED);

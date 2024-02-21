@@ -1,9 +1,12 @@
 {
   "errors": {
-    "unknownError": "Erro desconhecido. Tente novamente.",
-    "routeNotFound": "O recurso solicitado não existe. Verifique a requisição e tente novamente."
+    "UNKNOWN_ERROR": "Erro desconhecido. Tente novamente.",
+    "ROUTE_NOT_FOUND": "O recurso solicitado não existe. Verifique a requisição e tente novamente.",
+    "TOKEN_MUST_BE_PROVIDER": "O token de autenticação (Authentication) precisa ser fornecido para acessar esse recurso.",
+    "INVALID_TOKEN": "Token de autenticação inválido.",
+    "EXPIRED_TOKEN": "Sessão expirada. Faça login novamente para acessar o recurso."
   },
   "success": {
-    "ok": "Ok."
+    "OK": "Ok."
   }
 }

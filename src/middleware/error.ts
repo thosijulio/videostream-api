@@ -4,13 +4,8 @@ import getMessages from '../locales';
 import getLocale from '../utils/getLocale';
 import CustomizedError from '../helpers/CustomizedError';
 
-const errorMiddleware = (
-  error: Error & Partial<CustomizedError>,
-  { headers: { locale } }: Request,
-  res: Response,
-  _next: NextFunction
-) => {
-  const { general: generalMessages } = getMessages(getLocale(locale));
+const errorMiddleware = (error: Error & Partial<CustomizedError>, req: Request, res: Response, _next: NextFunction) => {
+  const { general: generalMessages } = req.messages || getMessages(getLocale(req.headers.locale));
 
   let message: string;
   let statusCode: number;
@@ -20,7 +15,7 @@ const errorMiddleware = (
     statusCode = error.statusCode;
   } else {
     console.log(error.message);
-    message = generalMessages.errors.unknownError;
+    message = generalMessages.errors.UNKNOWN_ERROR;
     statusCode = StatusCodes.INTERNAL_SERVER_ERROR;
   }
 

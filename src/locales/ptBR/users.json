@@ -1,10 +1,10 @@
 {
   "findAll": {
-    "noUsersFound": "Nenhum usuário encontrado.",
-    "pageParamMustBeNumber": "'Page' deve ser um número válido.",
-    "pageParamMustBeGreaterThan0": "'Page' deve ser maior que 0.",
+    "NO_USERS_FOUND": "Nenhum usuário encontrado.",
+    "PAGE_PARAM_MUST_BE_NUMBER": "'Page' deve ser um número válido.",
+    "PAGE_PARAM_MUST_BE_GT_0": "'Page' deve ser maior que 0.",
     "limitParamMustBeNumber": "'Limit' deve ser um número válido.",
-    "limitParamMustBeLowerThan50": "'Limit' deve ser menor que 50.",
-    "limitParamMustBeGreaterThan0": "'Limit' deve ser maior que 0."
+    "limitParamMustBeLTE50": "'Limit' deve ser menor ou igual a 50.",
+    "limitParamMustBeGT0": "'Limit' deve ser maior que 0."
   }
 }

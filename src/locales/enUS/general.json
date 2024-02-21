@@ -1,9 +1,12 @@
 {
   "errors": {
-    "unknownError": "Unknown error. Please try again.",
-    "routeNotFound": "The requested resource does not exist. Check the request and try again."
+    "UNKNOWN_ERROR": "Unknown error. Please try again.",
+    "ROUTE_NOT_FOUND": "The requested resource does not exist. Check the request and try again.",
+    "TOKEN_MUST_BE_PROVIDER": "Authentication token (Authorization) must be provider to access this resource.",
+    "INVALID_TOKEN": "Invalid authentication token.",
+    "EXPIRED_TOKEN": "Session expired. Log back in to access this content."
   },
   "success": {
-    "ok": "Ok."
+    "OK": "Ok."
   }
 }
