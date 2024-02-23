@@ -6,5 +6,6 @@ const userRouter = express.Router({ mergeParams: true });
 const { userController } = controller;
 
 userRouter.get('/findAll', checkAdminAccess, userController.findAll);
+userRouter.put('/:email', checkAdminAccess, userController.edit);
 
 export default userRouter;

@@ -26,6 +26,11 @@ const getMessages = (language: 'ptBR' | 'enUS' = 'ptBR') => ({
       limitParamMustBeLTE50: MESSAGES[language].users.findAll.limitParamMustBeLTE50,
       limitParamMustBeGT0: MESSAGES[language].users.findAll.limitParamMustBeGT0,
     },
+    editUser: {
+      ERROR_KEY_MUST_BE_STRING: MESSAGES[language].users.editUser.ERROR_KEY_MUST_BE_STRING,
+      ERROR_EMPTY_BODY: MESSAGES[language].users.editUser.ERROR_EMPTY_BODY,
+      ERROR_KEY_MUST_BE_NUMBER: MESSAGES[language].users.editUser.ERROR_KEY_MUST_BE_NUMBER,
+    },
   },
   auth: {
     login: {

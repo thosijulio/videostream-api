@@ -6,5 +6,10 @@
     "limitParamMustBeNumber": "'Limit' must be a valid number.",
     "limitParamMustBeLTE50": "'Limit' must be lower than or equal to 50.",
     "limitParamMustBeGT0": "'Limit' must be greater than 0."
+  },
+  "editUser": {
+    "ERROR_KEY_MUST_BE_STRING": "must be of type 'string'.",
+    "ERROR_EMPTY_BODY": "No data was provided to be changed in the user.",
+    "ERROR_KEY_MUST_BE_NUMBER": "must be of type 'number'."
   }
 }
