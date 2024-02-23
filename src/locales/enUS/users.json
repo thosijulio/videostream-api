@@ -11,7 +11,7 @@
     "ERROR_KEY_MUST_BE_STRING": "must be of type 'string'.",
     "ERROR_EMPTY_BODY": "No data was provided to be changed in the user.",
     "ERROR_KEY_MUST_BE_NUMBER": "must be of type 'number'.",
-    "NOTHING_TO_CHANGE": "There is nothing to be changed.",
-    "USER_DOESNT_EXISTS": "User does not exist."
+    "USER_DOESNT_EXISTS": "User does not exist.",
+    "USER_EDITED": "User edited successfully."
   }
 }

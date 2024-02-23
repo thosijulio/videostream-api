@@ -12,6 +12,6 @@
     "ERROR_EMPTY_BODY": "Não foram informados dados a serem alterados no usuário.",
     "ERROR_KEY_MUST_BE_NUMBER": "deve ser do tipo 'number'.",
     "USER_DOESNT_EXISTS": "Usuário não encontrado.",
-    "NOTHING_TO_CHANGE": "There is nothing to be changed."
+    "USER_EDITED": "Usuário editado com sucesso."
   }
 }

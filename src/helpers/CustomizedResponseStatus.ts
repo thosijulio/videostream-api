@@ -16,8 +16,8 @@ export class BadRequestError extends CustomizedResponseStatus {
 }
 
 export class NotModifiedRedirection extends CustomizedResponseStatus {
-  constructor(message: string) {
-    super(message, StatusCodes.NOT_MODIFIED);
+  constructor() {
+    super('', StatusCodes.NOT_MODIFIED);
   }
 }
 

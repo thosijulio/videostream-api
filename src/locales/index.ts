@@ -30,8 +30,8 @@ const getMessages = (language: 'ptBR' | 'enUS' = 'ptBR') => ({
       ERROR_KEY_MUST_BE_STRING: MESSAGES[language].users.editUser.ERROR_KEY_MUST_BE_STRING,
       ERROR_EMPTY_BODY: MESSAGES[language].users.editUser.ERROR_EMPTY_BODY,
       ERROR_KEY_MUST_BE_NUMBER: MESSAGES[language].users.editUser.ERROR_KEY_MUST_BE_NUMBER,
-      NOTHING_TO_CHANGE: MESSAGES[language].users.editUser.NOTHING_TO_CHANGE,
       USER_DOESNT_EXISTS: MESSAGES[language].users.editUser.USER_DOESNT_EXISTS,
+      USER_EDITED: MESSAGES[language].users.editUser.USER_EDITED,
     },
   },
   auth: {

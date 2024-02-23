@@ -19,7 +19,7 @@ const editUser = async (payload: EditUser, userEmail: string, messages: Messages
   const userToEdit = await prisma.user.findUnique({ where: { email: userEmail } });
   const {
     users: {
-      editUser: { NOTHING_TO_CHANGE, USER_DOESNT_EXISTS },
+      editUser: { USER_DOESNT_EXISTS },
     },
   } = messages;
 
@@ -34,13 +34,25 @@ const editUser = async (payload: EditUser, userEmail: string, messages: Messages
       }
     }
 
-    if (nothingToChange) throw new NotModifiedRedirection(NOTHING_TO_CHANGE);
+    if (nothingToChange) throw new NotModifiedRedirection();
 
     const result = await prisma.user.update({
       data: payload,
       where: {
         id: userToEdit.id,
       },
+      select: {
+        birthDate: true,
+        document: true,
+        email: true,
+        firstName: true,
+        lastName: true,
+        password: true,
+        role: true,
+        username: true,
+        id: false,
+        roleId: false,
+      }, // Exibindo tudo, exceto id's
     });
 
     return result;

@@ -9,12 +9,17 @@ const editUser = async (req: Request, res: Response) => {
     body: data,
     messages,
   } = req;
+  const {
+    users: {
+      editUser: { USER_EDITED },
+    },
+  } = messages;
 
   verifyBodyDataEditUser(data, messages);
 
   const result = await userService.edit(data, email, messages);
 
-  if (result) res.status(StatusCodes.OK).json({ message: '' });
+  if (result) res.status(StatusCodes.OK).json({ message: USER_EDITED, data: { result } });
 };
 
 export default editUser;
