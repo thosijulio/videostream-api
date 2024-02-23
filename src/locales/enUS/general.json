@@ -4,6 +4,7 @@
     "ROUTE_NOT_FOUND": "The requested resource does not exist. Check the request and try again.",
     "TOKEN_MUST_BE_PROVIDER": "Authentication token (Authorization) must be provider to access this resource.",
     "INVALID_TOKEN": "Invalid authentication token.",
+    "UNAUTHORIZED_RESOURCE": "Feature not allowed for the user.",
     "EXPIRED_TOKEN": "Session expired. Log back in to access this content."
   },
   "success": {

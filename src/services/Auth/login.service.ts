@@ -6,20 +6,20 @@ import Messages from '../../types/Messages';
 const login = async (user: string, password: string, messages: Messages) => {
   const {
     auth: {
-      login: { INVALID_USER_OR_PASSWORD },
+      login: { NECESSARY_USER_AND_PASSWORD },
     },
   } = messages;
 
-  if (!user || !password) throw new BadRequestError(INVALID_USER_OR_PASSWORD);
+  if (!user || !password) throw new BadRequestError(NECESSARY_USER_AND_PASSWORD);
 
   const UserClient = await prisma.user.findFirst({
     where: {
       OR: [
         {
-          email: 'user90@example.codm',
+          email: user,
         },
         {
-          document: '6823464863',
+          document: user,
         },
       ],
       AND: [{ password }],

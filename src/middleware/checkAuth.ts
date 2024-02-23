@@ -1,11 +1,13 @@
 import { Response, NextFunction, Request } from 'express';
 import { BadRequestError, UnauthorizedError } from '../helpers/CustomizedError';
 import jwt from 'jsonwebtoken';
+import JWTPayload from '../types/JwtPayload';
 
 const checkAuth = (req: Request, res: Response, next: NextFunction) => {
   const {
     general: { errors: generalErrors },
   } = req.messages;
+  const PRIVATE_KEY = process.env.JWT_SECRET || 'secret_key';
   const token = req.headers.authorization;
 
   if (!token) {
@@ -13,9 +15,9 @@ const checkAuth = (req: Request, res: Response, next: NextFunction) => {
   }
 
   try {
-    const PRIVATE_KEY = process.env.JWT_SECRET || 'secret_key';
-    const payload = jwt.verify(token, PRIVATE_KEY);
-    console.log(payload);
+    const payload = jwt.verify(token, PRIVATE_KEY) as unknown as JWTPayload;
+
+    req.user = payload;
 
     return next();
   } catch (error: unknown) {

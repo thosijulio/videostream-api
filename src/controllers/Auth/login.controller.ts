@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import authService from '../../services/Auth';
 import { StatusCodes } from 'http-status-codes';
-import { UnprocessableEntityError } from '../../helpers/CustomizedError';
+import { UnauthorizedError } from '../../helpers/CustomizedError';
 
 const login = async (req: Request, res: Response) => {
   const { user, password } = req.body;
@@ -25,7 +25,7 @@ const login = async (req: Request, res: Response) => {
     });
   }
 
-  throw new UnprocessableEntityError(UNKNOWN_ERROR_ON_LOGIN);
+  throw new UnauthorizedError(UNKNOWN_ERROR_ON_LOGIN);
 };
 
 export default login;

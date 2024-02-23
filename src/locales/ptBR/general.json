@@ -4,7 +4,8 @@
     "ROUTE_NOT_FOUND": "O recurso solicitado não existe. Verifique a requisição e tente novamente.",
     "TOKEN_MUST_BE_PROVIDER": "O token de autenticação (Authentication) precisa ser fornecido para acessar esse recurso.",
     "INVALID_TOKEN": "Token de autenticação inválido.",
-    "EXPIRED_TOKEN": "Sessão expirada. Faça login novamente para acessar o recurso."
+    "EXPIRED_TOKEN": "Sessão expirada. Faça login novamente para acessar o recurso.",
+    "UNAUTHORIZED_RESOURCE": "Recurso não permitido para usuário."
   },
   "success": {
     "OK": "Ok."
