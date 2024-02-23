@@ -12,7 +12,7 @@ const editUser = async (req: Request, res: Response) => {
 
   verifyBodyDataEditUser(data, messages);
 
-  const result = await userService.edit(data, email);
+  const result = await userService.edit(data, email, messages);
 
   if (result) res.status(StatusCodes.OK).json({ message: '' });
 };

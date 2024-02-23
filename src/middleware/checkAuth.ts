@@ -1,5 +1,5 @@
 import { Response, NextFunction, Request } from 'express';
-import { BadRequestError, UnauthorizedError } from '../helpers/CustomizedError';
+import { BadRequestError, UnauthorizedError } from '../helpers/CustomizedResponseStatus';
 import jwt from 'jsonwebtoken';
 import JWTPayload from '../types/JwtPayload';
 

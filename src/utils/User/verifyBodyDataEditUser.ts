@@ -1,4 +1,4 @@
-import { BadRequestError } from '../../helpers/CustomizedError';
+import { BadRequestError } from '../../helpers/CustomizedResponseStatus';
 import Messages from '../../types/Messages';
 
 const verifyBodyDataEditUser = (

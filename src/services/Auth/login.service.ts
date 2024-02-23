@@ -1,4 +1,4 @@
-import { BadRequestError } from '../../helpers/CustomizedError';
+import { BadRequestError } from '../../helpers/CustomizedResponseStatus';
 import * as jwt from 'jsonwebtoken';
 import prisma from '../../model';
 import Messages from '../../types/Messages';
@@ -20,6 +20,9 @@ const login = async (user: string, password: string, messages: Messages) => {
         },
         {
           document: user,
+        },
+        {
+          username: user,
         },
       ],
       AND: [{ password }],

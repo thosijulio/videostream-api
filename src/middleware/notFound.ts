@@ -1,5 +1,5 @@
 import { Response, NextFunction, Request } from 'express';
-import { NotFoundError } from '../helpers/CustomizedError';
+import { NotFoundError } from '../helpers/CustomizedResponseStatus';
 import getMessages from '../locales';
 import getLocale from '../utils/getLocale';
 

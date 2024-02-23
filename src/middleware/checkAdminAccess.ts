@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from 'express';
 import jwt from 'jsonwebtoken';
-import { ForbiddenError, UnauthorizedError } from '../helpers/CustomizedError';
+import { ForbiddenError, UnauthorizedError } from '../helpers/CustomizedResponseStatus';
 import JWTPayload from '../types/JwtPayload';
 
 const checkAdminAccess = (req: Request, _res: Response, next: NextFunction) => {

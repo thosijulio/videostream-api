@@ -3,13 +3,15 @@
     "NO_USERS_FOUND": "Nenhum usuário encontrado.",
     "PAGE_PARAM_MUST_BE_NUMBER": "'Page' deve ser um número válido.",
     "PAGE_PARAM_MUST_BE_GT_0": "'Page' deve ser maior que 0.",
-    "limitParamMustBeNumber": "'Limit' deve ser um número válido.",
-    "limitParamMustBeLTE50": "'Limit' deve ser menor ou igual a 50.",
-    "limitParamMustBeGT0": "'Limit' deve ser maior que 0."
+    "LIMIT_PARAM_MUST_BE_NUMBER": "'Limit' deve ser um número válido.",
+    "LIMIT_PARAM_MUST_BE_LTE_50": "'Limit' deve ser menor ou igual a 50.",
+    "LIMIT_PARAM_MUST_BE_GT_0": "'Limit' deve ser maior que 0."
   },
   "editUser": {
     "ERROR_KEY_MUST_BE_STRING": "deve ser do tipo 'string'.",
     "ERROR_EMPTY_BODY": "Não foram informados dados a serem alterados no usuário.",
-    "ERROR_KEY_MUST_BE_NUMBER": "deve ser do tipo 'number'"
+    "ERROR_KEY_MUST_BE_NUMBER": "deve ser do tipo 'number'.",
+    "USER_DOESNT_EXISTS": "Usuário não encontrado.",
+    "NOTHING_TO_CHANGE": "There is nothing to be changed."
   }
 }

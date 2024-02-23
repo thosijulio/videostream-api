@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import authService from '../../services/Auth';
 import { StatusCodes } from 'http-status-codes';
-import { UnauthorizedError } from '../../helpers/CustomizedError';
+import { UnauthorizedError } from '../../helpers/CustomizedResponseStatus';
 
 const login = async (req: Request, res: Response) => {
   const { user, password } = req.body;

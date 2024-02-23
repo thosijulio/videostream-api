@@ -2,9 +2,14 @@ import { NextFunction, Request, Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
 import getMessages from '../locales';
 import getLocale from '../utils/getLocale';
-import CustomizedError from '../helpers/CustomizedError';
+import CustomizedResponseStatus from '../helpers/CustomizedResponseStatus';
 
-const errorMiddleware = (error: Error & Partial<CustomizedError>, req: Request, res: Response, _next: NextFunction) => {
+const errorMiddleware = (
+  error: Error & Partial<CustomizedResponseStatus>,
+  req: Request,
+  res: Response,
+  _next: NextFunction
+) => {
   const { general: generalMessages } = req.messages || getMessages(getLocale(req.headers.locale));
 
   let message: string;
