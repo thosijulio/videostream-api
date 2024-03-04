@@ -1,4 +1,9 @@
 {
+  "general": {
+    "ERROR_KEY_MUST_BE_STRING": "deve ser do tipo 'string'.",
+    "ERROR_EMPTY_BODY": "Não foram informados dados a serem alterados no usuário.",
+    "ERROR_KEY_MUST_BE_NUMBER": "deve ser do tipo 'number'."
+  },
   "findAll": {
     "NO_USERS_FOUND": "Nenhum usuário encontrado.",
     "PAGE_PARAM_MUST_BE_NUMBER": "'Page' deve ser um número válido.",
@@ -8,10 +13,16 @@
     "LIMIT_PARAM_MUST_BE_GT_0": "'Limit' deve ser maior que 0."
   },
   "editUser": {
-    "ERROR_KEY_MUST_BE_STRING": "deve ser do tipo 'string'.",
-    "ERROR_EMPTY_BODY": "Não foram informados dados a serem alterados no usuário.",
-    "ERROR_KEY_MUST_BE_NUMBER": "deve ser do tipo 'number'.",
     "USER_DOESNT_EXISTS": "Usuário não encontrado.",
     "USER_EDITED": "Usuário editado com sucesso."
+  },
+  "createUser": {
+    "INVALID_EMAIL": "Favor inserir um e-mail válido.",
+    "INVALID_DOCUMENT": "Favor inserir um documento válido.",
+    "KEY_MUST_BE_PROVIDER": "precisa ser informado.",
+    "USER_CREATED": "Usuário criado com sucesso.",
+    "EMAIL_ALREADY_EXISTS": "Já existe um usuário com o e-mail informado.",
+    "DOCUMENT_ALREADY_EXISTS": "Já existe um usuário com o documento informado.",
+    "USERNAME_ALREADY_EXISTS": "Já existe um usuário com o nome de usuário informado."
   }
 }

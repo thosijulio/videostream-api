@@ -20,15 +20,15 @@ model Role {
 
 model User {
   id Int @id @default(autoincrement()) @unique
-  firstName String
-  lastName String
+  firstName String?
+  lastName String?
   username String @unique
   email String @unique
   document String @unique
-  birthDate DateTime @db.Date()
-  password String
+  birthDate DateTime? @db.Date()
+  password String @default("123456")
   role Role @relation(fields: [roleId], references: [id])
-  roleId Int
+  roleId Int @default(1)
 
   @@map("users")
 }

@@ -15,6 +15,12 @@ export class BadRequestError extends CustomizedResponseStatus {
   }
 }
 
+export class ConflictError extends CustomizedResponseStatus {
+  constructor(message: string) {
+    super(message, StatusCodes.CONFLICT);
+  }
+}
+
 export class NotModifiedRedirection extends CustomizedResponseStatus {
   constructor() {
     super('', StatusCodes.NOT_MODIFIED);

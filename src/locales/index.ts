@@ -18,6 +18,11 @@ const getMessages = (language: 'ptBR' | 'enUS' = 'ptBR') => ({
     },
   },
   users: {
+    general: {
+      ERROR_KEY_MUST_BE_STRING: MESSAGES[language].users.general.ERROR_KEY_MUST_BE_STRING,
+      ERROR_EMPTY_BODY: MESSAGES[language].users.general.ERROR_EMPTY_BODY,
+      ERROR_KEY_MUST_BE_NUMBER: MESSAGES[language].users.general.ERROR_KEY_MUST_BE_NUMBER,
+    },
     findAll: {
       NO_USERS_FOUND: MESSAGES[language].users.findAll.NO_USERS_FOUND,
       PAGE_PARAM_MUST_BE_NUMBER: MESSAGES[language].users.findAll.PAGE_PARAM_MUST_BE_NUMBER,
@@ -27,11 +32,17 @@ const getMessages = (language: 'ptBR' | 'enUS' = 'ptBR') => ({
       LIMIT_PARAM_MUST_BE_GT_0: MESSAGES[language].users.findAll.LIMIT_PARAM_MUST_BE_GT_0,
     },
     editUser: {
-      ERROR_KEY_MUST_BE_STRING: MESSAGES[language].users.editUser.ERROR_KEY_MUST_BE_STRING,
-      ERROR_EMPTY_BODY: MESSAGES[language].users.editUser.ERROR_EMPTY_BODY,
-      ERROR_KEY_MUST_BE_NUMBER: MESSAGES[language].users.editUser.ERROR_KEY_MUST_BE_NUMBER,
       USER_DOESNT_EXISTS: MESSAGES[language].users.editUser.USER_DOESNT_EXISTS,
       USER_EDITED: MESSAGES[language].users.editUser.USER_EDITED,
+    },
+    createUser: {
+      USER_CREATED: MESSAGES[language].users.createUser.USER_CREATED,
+      INVALID_EMAIL: MESSAGES[language].users.createUser.INVALID_EMAIL,
+      INVALID_DOCUMENT: MESSAGES[language].users.createUser.INVALID_DOCUMENT,
+      KEY_MUST_BE_PROVIDER: MESSAGES[language].users.createUser.KEY_MUST_BE_PROVIDER,
+      DOCUMENT_ALREADY_EXISTS: MESSAGES[language].users.createUser.DOCUMENT_ALREADY_EXISTS,
+      EMAIL_ALREADY_EXISTS: MESSAGES[language].users.createUser.EMAIL_ALREADY_EXISTS,
+      USERNAME_ALREADY_EXISTS: MESSAGES[language].users.createUser.USERNAME_ALREADY_EXISTS,
     },
   },
   auth: {

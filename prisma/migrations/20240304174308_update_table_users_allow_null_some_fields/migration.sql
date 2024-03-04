@@ -1,0 +1,6 @@
+-- AlterTable
+ALTER TABLE `users` MODIFY `firstName` VARCHAR(191) NULL,
+    MODIFY `lastName` VARCHAR(191) NULL,
+    MODIFY `birthDate` DATE NULL,
+    MODIFY `password` VARCHAR(191) NOT NULL DEFAULT '123456',
+    MODIFY `roleId` INTEGER NOT NULL DEFAULT 1;

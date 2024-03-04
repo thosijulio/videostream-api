@@ -1,4 +1,9 @@
 {
+  "general": {
+    "ERROR_KEY_MUST_BE_STRING": "must be of type 'string'.",
+    "ERROR_EMPTY_BODY": "No data was provided to be changed in the user.",
+    "ERROR_KEY_MUST_BE_NUMBER": "must be of type 'number'."
+  },
   "findAll": {
     "NO_USERS_FOUND": "No users found.",
     "PAGE_PARAM_MUST_BE_NUMBER": "'Page' must be a valid number.",
@@ -8,10 +13,16 @@
     "LIMIT_PARAM_MUST_BE_GT_0": "'Limit' must be greater than 0."
   },
   "editUser": {
-    "ERROR_KEY_MUST_BE_STRING": "must be of type 'string'.",
-    "ERROR_EMPTY_BODY": "No data was provided to be changed in the user.",
-    "ERROR_KEY_MUST_BE_NUMBER": "must be of type 'number'.",
     "USER_DOESNT_EXISTS": "User does not exist.",
     "USER_EDITED": "User edited successfully."
+  },
+  "createUser": {
+    "INVALID_EMAIL": "Please insert a valid e-mail.",
+    "INVALID_DOCUMENT": "Please insert a valid document.",
+    "KEY_MUST_BE_PROVIDER": "must be provider.",
+    "USER_CREATED": "User created successfully.",
+    "EMAIL_ALREADY_EXISTS": "There is already a user with the provided e-mail.",
+    "DOCUMENT_ALREADY_EXISTS": "There is already a user with the provided document.",
+    "USERNAME_ALREADY_EXISTS": "There is already a user with the provided username."
   }
 }
