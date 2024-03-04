@@ -17,8 +17,8 @@ const verifyBodyDataEditUser = (
   },
   {
     users: {
-      general: { ERROR_EMPTY_BODY, ERROR_KEY_MUST_BE_NUMBER, ERROR_KEY_MUST_BE_STRING },
-      createUser: { INVALID_DOCUMENT, INVALID_EMAIL, KEY_MUST_BE_PROVIDER },
+      general: { ERROR_EMPTY_BODY, ERROR_KEY_MUST_BE_NUMBER, ERROR_KEY_MUST_BE_STRING, INVALID_EMAIL },
+      createUser: { INVALID_DOCUMENT, KEY_MUST_BE_PROVIDER },
     },
   }: Messages
 ) => {

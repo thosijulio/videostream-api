@@ -2,7 +2,8 @@
   "general": {
     "ERROR_KEY_MUST_BE_STRING": "must be of type 'string'.",
     "ERROR_EMPTY_BODY": "No data was provided to be changed in the user.",
-    "ERROR_KEY_MUST_BE_NUMBER": "must be of type 'number'."
+    "ERROR_KEY_MUST_BE_NUMBER": "must be of type 'number'.",
+    "INVALID_EMAIL": "Please insert a valid e-mail."
   },
   "findAll": {
     "NO_USERS_FOUND": "No users found.",
@@ -17,12 +18,15 @@
     "USER_EDITED": "User edited successfully."
   },
   "createUser": {
-    "INVALID_EMAIL": "Please insert a valid e-mail.",
-    "INVALID_DOCUMENT": "Please insert a valid document.",
     "KEY_MUST_BE_PROVIDER": "must be provider.",
     "USER_CREATED": "User created successfully.",
+    "INVALID_DOCUMENT": "Please insert a valid document.",
     "EMAIL_ALREADY_EXISTS": "There is already a user with the provided e-mail.",
     "DOCUMENT_ALREADY_EXISTS": "There is already a user with the provided document.",
     "USERNAME_ALREADY_EXISTS": "There is already a user with the provided username."
+  },
+  "deleteUser": {
+    "USER_DOESNT_EXIST": "There is no user with the provided e-mail address.",
+    "USER_DELETED": "User deleted successfully."
   }
 }

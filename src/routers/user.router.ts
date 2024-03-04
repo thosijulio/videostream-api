@@ -8,5 +8,6 @@ const { userController } = controller;
 userRouter.get('/findAll', checkAdminAccess, userController.findAll);
 userRouter.post('/', checkAdminAccess, userController.create);
 userRouter.put('/:email', checkAdminAccess, userController.edit);
+userRouter.delete('/:email', checkAdminAccess, userController.delete);
 
 export default userRouter;
