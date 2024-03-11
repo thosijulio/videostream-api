@@ -1,23 +1,29 @@
 type Movie = {
   title: {
     original: string;
-    ptBR: string;
-    enUS: string;
+    ptBR?: string;
+    enUS?: string;
   };
   releaseYear: string;
-  genres: {
-    ptBR: string[];
-    enUS: string[];
-  };
+  genres:
+    | {
+        ptBR?: string[];
+        enUS?: string[];
+      }
+    | string[];
   runtime: number;
-  overview: {
-    enUS: string;
-    ptBR: string;
-  };
-  tagline: {
-    enUS: string;
-    ptBR: string;
-  };
+  overview:
+    | {
+        enUS?: string;
+        ptBR?: string;
+      }
+    | string;
+  tagline:
+    | {
+        enUS?: string;
+        ptBR?: string;
+      }
+    | string;
   productionCompanies: {
     name: string;
     countryCode: string;

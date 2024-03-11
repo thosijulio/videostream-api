@@ -1,12 +1,17 @@
 import fs from 'fs';
 import Locale from '../../types/Locale';
 import Movie from '../../types/Movie';
+import getMovieDetailsByLanguage from '../../utils/Movie/getMovieDetailsByLanguage';
 
 const findAllUsers: (
   limit: number,
   locale: Locale,
   page: number
-) => Promise<{ results: Movie[]; total: number; next: boolean }> = async (limit = 20, locale = 'ptBR', page = 1) => {
+) => Promise<{ results: Partial<Movie>[]; total: number; next: boolean }> = async (
+  limit = 20,
+  locale = 'ptBR',
+  page = 1
+) => {
   const startIndex = (page - 1) * limit;
 
   return new Promise((resolve, reject) => {
@@ -18,7 +23,7 @@ const findAllUsers: (
 
       const moviesOnPage = files.slice(startIndex, startIndex + limit);
 
-      const movies: Movie[] = [];
+      const movies: Partial<Movie>[] = [];
 
       let moviesProcessed = 0;
 
@@ -40,7 +45,7 @@ const findAllUsers: (
           }
 
           const movieData: Movie = JSON.parse(data);
-          movies.push(movieData);
+          movies.push(getMovieDetailsByLanguage(movieData, locale));
 
           moviesProcessed++;
           if (moviesProcessed === moviesOnPage.length) {
