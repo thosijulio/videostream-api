@@ -6,7 +6,7 @@ import Messages from '../../types/Messages';
 const verifyQueryParamsfindAll = (query: Request['query'], messages: Messages) => {
   const { limit, page } = query;
   const {
-    user: {
+    movie: {
       findAll: {
         LIMIT_PARAM_MUST_BE_NUMBER,
         PAGE_PARAM_MUST_BE_NUMBER,

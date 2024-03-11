@@ -6,7 +6,7 @@ import verifyQueryParamsfindAll from '../../utils/User/verifyQueryParamsFindAll'
 const findAllUsers = async (req: Request, res: Response) => {
   const [limit, page] = verifyQueryParamsfindAll(req.query, req.messages);
   const {
-    users: {
+    user: {
       findAll: { NO_USERS_FOUND },
     },
     general: {

@@ -10,7 +10,7 @@ const editUser = async (req: Request, res: Response) => {
     messages,
   } = req;
   const {
-    users: {
+    user: {
       editUser: { USER_EDITED },
     },
   } = messages;

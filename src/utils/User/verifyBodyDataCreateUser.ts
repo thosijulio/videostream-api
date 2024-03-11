@@ -16,7 +16,7 @@ const verifyBodyDataEditUser = (
     roleId?: number;
   },
   {
-    users: {
+    user: {
       general: { ERROR_EMPTY_BODY, ERROR_KEY_MUST_BE_NUMBER, ERROR_KEY_MUST_BE_STRING, INVALID_EMAIL },
       createUser: { INVALID_DOCUMENT, KEY_MUST_BE_PROVIDER },
     },

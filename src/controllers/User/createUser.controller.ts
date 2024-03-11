@@ -6,7 +6,7 @@ import userService from '../../services/User';
 const createUser = async (req: Request, res: Response) => {
   const { messages, body: data } = req;
   const {
-    users: {
+    user: {
       createUser: { USER_CREATED },
     },
   } = messages;

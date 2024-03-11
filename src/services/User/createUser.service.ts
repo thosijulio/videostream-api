@@ -15,7 +15,7 @@ type CreateUser = {
 
 const createUser = async (payload: CreateUser, messages: Messages) => {
   const {
-    users: {
+    user: {
       createUser: { DOCUMENT_ALREADY_EXISTS, EMAIL_ALREADY_EXISTS, USERNAME_ALREADY_EXISTS },
     },
   } = messages;

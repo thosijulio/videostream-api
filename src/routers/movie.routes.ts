@@ -5,6 +5,6 @@ import checkAuth from '../middleware/checkAuth';
 const movieRoutes = express.Router({ mergeParams: true });
 const { findAll } = movieController;
 
-movieRoutes.get('/', checkAuth, findAll);
+movieRoutes.get('/findAll', checkAuth, findAll);
 
 export default movieRoutes;

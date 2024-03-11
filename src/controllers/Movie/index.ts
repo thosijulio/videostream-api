@@ -1,7 +1,7 @@
-import findAll from './findAll.controller';
+import findAllMovies from './findAll.controller';
 
 const movieController = {
-  findAll: findAll,
+  findAll: findAllMovies,
 };
 
 export default movieController;

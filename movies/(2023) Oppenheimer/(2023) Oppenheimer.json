@@ -1,0 +1,728 @@
+{
+    "title": {
+        "original": "Oppenheimer",
+        "ptBR": "Oppenheimer",
+        "enUS": "Oppenheimer"
+    },
+    "releaseYear": "2023-07-19",
+    "genres": {
+        "ptBR": [
+            "Drama",
+            "História"
+        ],
+        "enUS": [
+            "Drama",
+            "History"
+        ]
+    },
+    "runtime": 181,
+    "overview": {
+        "enUS": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+        "ptBR": "A história do físico americano J. Robert Oppenheimer, seu papel no Projeto Manhattan e no desenvolvimento da bomba atômica durante a Segunda Guerra Mundial, e o quanto isso mudaria a história do mundo para sempre."
+    },
+    "tagline": {
+        "enUS": "The world forever changes.",
+        "ptBR": "O Prometeu americano."
+    },
+    "productionCompanies": [
+        {
+            "name": "Syncopy",
+            "countryCode": "GB"
+        },
+        {
+            "name": "Universal Pictures",
+            "countryCode": "US"
+        },
+        {
+            "name": "Atlas Entertainment",
+            "countryCode": "US"
+        }
+    ],
+    "cast": [
+        {
+            "imdbId": "0614165",
+            "name": "Cillian Murphy",
+            "role": "J. Robert Oppenheimer",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMDUxY2M1NTQtNzcwNC00ZDljLTk4YjctYzJjZGNiYTc0YTE1XkEyXkFqcGdeQXVyMTY5MDA5MDc3.jpg"
+        },
+        {
+            "imdbId": "1289434",
+            "name": "Emily Blunt",
+            "role": "Kitty Oppenheimer",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTUxNDY4MTMzM15BMl5BanBnXkFtZTcwMjg5NzM2Ng@@.jpg"
+        },
+        {
+            "imdbId": "0000375",
+            "name": "Robert Downey Jr.",
+            "role": "Lewis Strauss",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BNzg1MTUyNDYxOF5BMl5BanBnXkFtZTgwNTQ4MTE2MjE@.jpg"
+        },
+        {
+            "imdbId": "2403277",
+            "name": "Alden Ehrenreich",
+            "role": "Senate Aide",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BNjY5ODY0MDE5Nl5BMl5BanBnXkFtZTgwODg2NDM4ODE@.jpg"
+        },
+        {
+            "imdbId": "0342241",
+            "name": "Scott Grimes",
+            "role": "Counsel",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTg2NTg0NTI0Ml5BMl5BanBnXkFtZTYwNzM4Njc4.jpg"
+        },
+        {
+            "imdbId": "0164809",
+            "name": "Jason Clarke",
+            "role": "Roger Robb",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BNzU5ODU0MzY1MV5BMl5BanBnXkFtZTcwMTY2MDE4OA@@.jpg"
+        },
+        {
+            "imdbId": "0463282",
+            "name": "Kurt Koehler",
+            "role": "Thomas Morgan",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BYWQxZGNkZTUtNDdkMi00NWI2LTlkMjktMjEzMmY3ZWI5NGUxXkEyXkFqcGdeQXVyMTI0Mjc4NA@@.jpg"
+        },
+        {
+            "imdbId": "0001282",
+            "name": "Tony Goldwyn",
+            "role": "Gordon Gray",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTk3NTI3ODgwM15BMl5BanBnXkFtZTgwMjM2NTE2NzE@.jpg"
+        },
+        {
+            "imdbId": "0332944",
+            "name": "John Gowans",
+            "role": "Ward Evans",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BOWRiNGU1MjEtNmU1NC00YTE3LTg1MjktY2UwNzkxYTdlZWEyXkEyXkFqcGdeQXVyMjQwMDg0Ng@@.jpg"
+        },
+        {
+            "imdbId": "0086301",
+            "name": "Macon Blair",
+            "role": "Lloyd Garrison",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMjQ1MDE0ODE4MF5BMl5BanBnXkFtZTgwNTY4NDE5MDI@.jpg"
+        },
+        {
+            "imdbId": "0195439",
+            "name": "James D'Arcy",
+            "role": "Patrick Blackett",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BNTc4ODA4NTktNjI5Yy00OTJhLWJhZWYtMzFjMDE0YTdjZmExXkEyXkFqcGdeQXVyNTU2MzE2OQ@@.jpg"
+        },
+        {
+            "imdbId": "0000110",
+            "name": "Kenneth Branagh",
+            "role": "Niels Bohr",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMjI0NTQ4Mjk5Ml5BMl5BanBnXkFtZTcwMDc1NjkzNw@@.jpg"
+        },
+        {
+            "imdbId": "0342881",
+            "name": "Harry Groener",
+            "role": "Senator McGee",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTgxODY1MTcyMV5BMl5BanBnXkFtZTYwODAwNTA1.jpg"
+        },
+        {
+            "imdbId": "0419813",
+            "name": "Gregory Jbara",
+            "role": "Chairman Magnuson",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BYzc0MDZjOTYtY2VhZi00NDYwLThjZDYtYzA2OWE4YzkwMzJmXkEyXkFqcGdeQXVyMTU3MDc0MzQ@.jpg"
+        },
+        {
+            "imdbId": "0455316",
+            "name": "Ted King",
+            "role": "Senator Bartlett",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BOGYwYTU1ZTgtYzUyNS00M2YxLTlmOGQtZGY4MTBlMjc5N2NjXkEyXkFqcGdeQXVyMTg0MTc4MDE@.jpg"
+        },
+        {
+            "imdbId": "0215229",
+            "name": "Tim DeKay",
+            "role": "Senator Pastore",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BNDI5NzY3ODc0OV5BMl5BanBnXkFtZTcwNzA4NDg1OA@@.jpg"
+        },
+        {
+            "imdbId": "0396765",
+            "name": "Steven Houska",
+            "role": "Senator Scott",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BZmMzYzYyZjYtZWNhOS00NTdkLTk2MDctNzAxNDJjYzExZDJjXkEyXkFqcGdeQXVyOTcxNjAxMTA@.jpg"
+        },
+        {
+            "imdbId": "0002018",
+            "name": "Tom Conti",
+            "role": "Albert Einstein",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTMyMzY0M2QtYTVhMS00ZmRjLWJjNzUtYmZjMWY3ZjZhOTFmXkEyXkFqcGdeQXVyMTI3MDk3MzQ@.jpg"
+        },
+        {
+            "imdbId": "0472710",
+            "name": "David Krumholtz",
+            "role": "Isidor Rabi",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BNWIzOGU4NDItNDZlZS00ZjcwLTgzOGQtOGY0OTJjYzExMjVhXkEyXkFqcGdeQXVyMjA2NTA5NzA@.jpg"
+        },
+        {
+            "imdbId": "5487427",
+            "name": "Petrie Willink",
+            "role": "Dutch Student",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BZDM0Y2U5NjgtNWRjNy00MzI5LThiYjgtNzlkNzE3MmIzNTlmXkEyXkFqcGdeQXVyMjQwMDg0Ng@@.jpg"
+        },
+        {
+            "imdbId": "0777788",
+            "name": "Matthias Schweighöfer",
+            "role": "Werner Heisenberg",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTA5ODI2NDEwNzleQTJeQWpwZ15BbWU4MDQxMjU1NzAy.jpg"
+        },
+        {
+            "imdbId": "0001326",
+            "name": "Josh Hartnett",
+            "role": "Ernest Lawrence",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTY5MDgzNDA2MF5BMl5BanBnXkFtZTcwODE3ODg1Mg@@.jpg"
+        },
+        {
+            "imdbId": "1842974",
+            "name": "Alex Wolff",
+            "role": "Luis Alvarez",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BNTdiNzc5NmQtM2ZlNS00MTAxLTg2YzAtYzU0NjBjM2JkZDA1XkEyXkFqcGdeQXVyMjQwMDg0Ng@@.jpg"
+        },
+        {
+            "imdbId": "0958430",
+            "name": "Josh Zuckerman",
+            "role": "Rossi Lomanitz",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BODE2MDg1YWYtNTUyYi00MzZhLWI0MmUtMDI3OTQ1ZGRiMmVmXkEyXkFqcGdeQXVyMTg5NTYxODM@.jpg"
+        },
+        {
+            "imdbId": "4425570",
+            "name": "Rory Keane",
+            "role": "Hartland Snyder",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BZWVlNjBiY2UtNWNlOS00NTYwLTk3ZTMtYmEwMWYyNjc3NDlkXkEyXkFqcGdeQXVyMjU4MTI5MTA@.jpg"
+        },
+        {
+            "imdbId": "0029400",
+            "name": "Michael Angarano",
+            "role": "Robert Serber",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMjA0NDY2MDg5N15BMl5BanBnXkFtZTgwNzg3MDc2MjI@.jpg"
+        },
+        {
+            "imdbId": "4003553",
+            "name": "Dylan Arnold",
+            "role": "Frank Oppenheimer",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BM2FhNmJkYWItN2FhNS00ODhhLThjYmQtZjJmMTBiMjIyMzkyXkEyXkFqcGdeQXVyNjk3ODk2OA@@.jpg"
+        },
+        {
+            "imdbId": "2730808",
+            "name": "Emma Dumont",
+            "role": "Jackie Oppenheimer",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BNzI4MzIzNTMyNl5BMl5BanBnXkFtZTgwODIyODA1NzM@.jpg"
+        },
+        {
+            "imdbId": "6073955",
+            "name": "Florence Pugh",
+            "role": "Jean Tatlock",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMmVlODM5OWUtYzQ1ZS00NDg4LThjZDItOWZiMDAyZTMwYmM1XkEyXkFqcGdeQXVyMjQwMDg0Ng@@.jpg"
+        },
+        {
+            "imdbId": "0470066",
+            "name": "Sadie Stratton",
+            "role": "Mary Washburn",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BYzBiYzVkMzktMGU5Mi00NGZhLThmYTAtNmYyMGViMTgyYzkzXkEyXkFqcGdeQXVyNDU3NzI2OQ@@.jpg"
+        },
+        {
+            "imdbId": "2131630",
+            "name": "Jefferson Hall",
+            "role": "Haakon Chevalier",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BZGY3YjliMWEtMDQ2MS00OGNkLWFlMjUtYTVjZjNhMmRiMDg1XkEyXkFqcGdeQXVyMzQ0NTk5NzU@.jpg"
+        },
+        {
+            "imdbId": "3528716",
+            "name": "Britt Kyle",
+            "role": "Barbara Chevalier",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BZDViZDg1NzEtZDVhZi00OTIzLTg0M2QtMDFkMGI5MmJmNGYzXkEyXkFqcGdeQXVyNDYxNzExMDQ@.jpg"
+        },
+        {
+            "imdbId": "1298458",
+            "name": "Guy Burnet",
+            "role": "George Eltenton",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BNGRiMDEyMDItMGVhZi00YjJjLWJkYTItYjA4NzJmMTdlZTNkXkEyXkFqcGdeQXVyMTMyMjMwMzI@.jpg"
+        },
+        {
+            "imdbId": "4715939",
+            "name": "Tom Jenkins",
+            "role": "Richard Tolman",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BOTFlZjI4N2MtZDUxMi00MTI5LTliNmYtYjA4OGQwY2NhMzhjXkEyXkFqcGdeQXVyMzM4OTM5ODg@.jpg"
+        },
+        {
+            "imdbId": "0000546",
+            "name": "Matthew Modine",
+            "role": "Vannevar Bush",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMjE3NTE4NjQxOF5BMl5BanBnXkFtZTgwMTI3MzQwNDI@.jpg"
+        },
+        {
+            "imdbId": "0518321",
+            "name": "Louise Lombard",
+            "role": "Ruth Tolman",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BZjM3MWI2YzItZTZkNS00ZGVmLTljNmMtYjMwMDg1ZTI5NWUyXkEyXkFqcGdeQXVyODg2NjI0NDM@.jpg"
+        },
+        {
+            "imdbId": "2810287",
+            "name": "David Dastmalchian",
+            "role": "William Borden",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTM3Mjc0NzgyN15BMl5BanBnXkFtZTcwOTU3MTE3Nw@@.jpg"
+        },
+        {
+            "imdbId": "4016292",
+            "name": "Michael Andrew Baker",
+            "role": "Joe Volpe",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BNzNiYjQ5MGEtZDNiYi00NzViLThjZWEtNmM2ZWFjNzJkYTQxXkEyXkFqcGdeQXVyMjY4NjY2OTk@.jpg"
+        },
+        {
+            "imdbId": "0378363",
+            "name": "Jeff Hephner",
+            "role": "Congressman",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BYjI3ZDIzNGQtM2ExNy00MWNjLWFlODYtYWY0YzgzZjBjN2QxXkEyXkFqcGdeQXVyMTUwMjcwMjY@.jpg"
+        },
+        {
+            "imdbId": "0000354",
+            "name": "Matt Damon",
+            "role": "Leslie Groves",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTM0NzYzNDgxMl5BMl5BanBnXkFtZTcwMDg2MTMyMw@@.jpg"
+        },
+        {
+            "imdbId": "2851530",
+            "name": "Dane DeHaan",
+            "role": "Kenneth Nichols",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTUzOTgwNjg0OV5BMl5BanBnXkFtZTgwNTgyMTA1NjE@.jpg"
+        },
+        {
+            "imdbId": "4517846",
+            "name": "Olli Haaskivi",
+            "role": "Edward Condon",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BNmFjYmZlNDEtYzlmNC00NThlLTgzNGEtNTViYmY0YmE1MmJjXkEyXkFqcGdeQXVyMjY3MTg3MjQ@.jpg"
+        },
+        {
+            "imdbId": "3314705",
+            "name": "David Rysdahl",
+            "role": "Donald Hornig",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BZTdmMjlkNjItOWI2MS00ZTkyLTljYjktODFkZGNmOWNmYWU5XkEyXkFqcGdeQXVyMjM4NDg2MjQ@.jpg"
+        },
+        {
+            "imdbId": "0669681",
+            "name": "Josh Peck",
+            "role": "Kenneth Bainbridge",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BZGIzZDcwMDEtMjNiZS00ODkwLTkxMWMtMDE3N2EyYmM5ZjBjXkEyXkFqcGdeQXVyMTI2Nzk2MjQ1.jpg"
+        },
+        {
+            "imdbId": "4425051",
+            "name": "Jack Quaid",
+            "role": "Richard Feynman",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BY2Y2MmIzOGEtNTgyYi00OWUyLTljNzEtYmFlOWU2MzFkZTg1XkEyXkFqcGdeQXVyMjYyNDg5NzY@.jpg"
+        },
+        {
+            "imdbId": "1498895",
+            "name": "Brett DelBuono",
+            "role": "Concerned Scientist",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BOWNkYmFmZjEtMGU3ZS00MDAwLThkOWYtMGM3MmFhOTZmOTg0XkEyXkFqcGdeQXVyNjQ5NTkyNjk@.jpg"
+        },
+        {
+            "imdbId": "1509478",
+            "name": "Benny Safdie",
+            "role": "Edward Teller",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMzE4Mjg3MTYyM15BMl5BanBnXkFtZTgwODkxOTUxNTM@.jpg"
+        },
+        {
+            "imdbId": "0803890",
+            "name": "Gustaf Skarsgård",
+            "role": "Hans Bethe",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTQ3NDIwNjgyMF5BMl5BanBnXkFtZTgwNDU4MjI1OTE@.jpg"
+        },
+        {
+            "imdbId": "0172082",
+            "name": "James Urbaniak",
+            "role": "Kurt Gödel",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMjM0Mjk3Mzc2Nl5BMl5BanBnXkFtZTgwOTA2NjE0NjE@.jpg"
+        },
+        {
+            "imdbId": "0042212",
+            "name": "Trond Fausa",
+            "role": "George Kistiakowsky",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTQ1NjUwMTUxM15BMl5BanBnXkFtZTgwNjE5MDY2MDE@.jpg"
+        },
+        {
+            "imdbId": "1256602",
+            "name": "Devon Bostick",
+            "role": "Seth Neddermeyer",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BNTk4NjMyNDMwMV5BMl5BanBnXkFtZTgwNTY2MjY0ODE@.jpg"
+        },
+        {
+            "imdbId": "1876851",
+            "name": "Danny Deferrari",
+            "role": "Enrico Fermi",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BYmEwNTUzOGMtYmY1NC00NjRmLTlhMGQtYmJiYTRhMzFiYTRlXkEyXkFqcGdeQXVyMTc3MjAwMzc@.jpg"
+        },
+        {
+            "imdbId": "1706832",
+            "name": "Christopher Denham",
+            "role": "Klaus Fuchs",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BY2NiYTJiMjktZWMyNi00NTJlLTllMTgtODFhYjdiMTY1YjY4XkEyXkFqcGdeQXVyNDQ5Nzg5NDE@.jpg"
+        },
+        {
+            "imdbId": "0552511",
+            "name": "Jessica Erin Martin",
+            "role": "Charlotte Serber",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BZTVhNGUxZjctZjkyMy00ZGVmLTg2OGUtOWVhMTc0NDIzNGI5XkEyXkFqcGdeQXVyMjM5MDI5MDc@.jpg"
+        },
+        {
+            "imdbId": "2532644",
+            "name": "Ronald Auguste",
+            "role": "J. Ernest Wilkins",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMjg4OTkxNzUtOGQ0My00MzQxLWIyZmItMzIyY2FlZTRhMDcxXkEyXkFqcGdeQXVyMTA3MDk2NDg2.jpg"
+        },
+        {
+            "imdbId": "1785339",
+            "name": "Rami Malek",
+            "role": "David Hill",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BODA3OTM4ODU0MV5BMl5BanBnXkFtZTgwNjQ5Njg3NjM@.jpg"
+        },
+        {
+            "imdbId": "1204932",
+            "name": "Máté Haumann",
+            "role": "Leo Szilard",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BNDQ4ODliNjAtYWRlOS00N2EyLTk3ZGItZWIyZjUwNTg4NDRiXkEyXkFqcGdeQXVyMTI1Mjc0MDI@.jpg"
+        },
+        {
+            "imdbId": "1880888",
+            "name": "Olivia Thirlby",
+            "role": "Lilli Hornig",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BODM3MzA1NDg5MV5BMl5BanBnXkFtZTgwNTMwMjkxNDE@.jpg"
+        },
+        {
+            "imdbId": "6340808",
+            "name": "Jack Cutmore-Scott",
+            "role": "Lyall Johnson",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BZjJkMzg2NTktMmQwNi00NTdiLTgzN2UtY2Q3NDQ4NWZjZDJjXkEyXkFqcGdeQXVyMjkwOTAyMDU@.jpg"
+        },
+        {
+            "imdbId": "0000729",
+            "name": "Casey Affleck",
+            "role": "Boris Pash",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BZjg5ZWM2ZTYtOGM1Yi00NzY4LThlMDctMWM4NTdlYTRhODRhXkEyXkFqcGdeQXVyMTYzOTczNTY5.jpg"
+        },
+        {
+            "imdbId": "1549295",
+            "name": "Harrison Gilbertson",
+            "role": "Philip Morrison",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMDJmZWUyYzYtNDNmNC00ZDhmLWE4YzAtNzQ0ZTVmODBjYWVlXkEyXkFqcGdeQXVyNDk0MTM3Nw@@.jpg"
+        },
+        {
+            "imdbId": "0001664",
+            "name": "James Remar",
+            "role": "Henry Stimson",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTQ2ODE1MjQ0Nl5BMl5BanBnXkFtZTgwMzg0NzYyNTE@.jpg"
+        },
+        {
+            "imdbId": "5659247",
+            "name": "Will Roberts",
+            "role": "George C. Marshall",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMWFkMWEyZTItYzExYS00NTcxLTgzNGItYzk0OGNhNzZjOWVhXkEyXkFqcGdeQXVyODE5NDA2MDI@.jpg"
+        },
+        {
+            "imdbId": "0804361",
+            "name": "Pat Skipper",
+            "role": "James Byrnes",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BNWQyMTZiY2YtZGUzNC00YTQ4LWE1YmItYWM5Y2I4MWE2NTg4XkEyXkFqcGdeQXVyMDc5NDA0NA@@.jpg"
+        },
+        {
+            "imdbId": "0183548",
+            "name": "Steve Coulter",
+            "role": "James Conant",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BODQ4YTg1OWYtZTNlZC00ZDUzLThiN2ItM2Y2MmQ1ZWVlYTNlXkEyXkFqcGdeQXVyMjQwMDg0Ng@@.jpg"
+        },
+        {
+            "imdbId": "2090153",
+            "name": "Jeremy John Wells",
+            "role": "AAF Officer",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BM2EwN2NjMTEtYmIwZi00MjkxLWIzYTQtZDBhMTFjNGFkNTM2XkEyXkFqcGdeQXVyNTkzMjIwNzQ@.jpg"
+        },
+        {
+            "imdbId": "1936239",
+            "name": "Sean Avery",
+            "role": "Weatherman",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BZWNkM2JkOTktNDI3OC00ZjY0LWJlMWItYTIzOGI1NmZiMmNiXkEyXkFqcGdeQXVyNDYyMjcxMDU@.jpg"
+        },
+        {
+            "imdbId": "9228818",
+            "name": "Adam Kroeger",
+            "role": "Army Captain",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMGIyNjI1YWQtZTk5OS00YjVhLWJjNWItN2Y0Y2RiMmRiMGY3XkEyXkFqcGdeQXVyOTEwNDQzNzM@.jpg"
+        },
+        {
+            "imdbId": "5673760",
+            "name": "Drew Kenney",
+            "role": "Soldier",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BODUyYTExNTAtYzM1OC00MTdlLWJkNTEtZDVlOWVmMmVjN2ZiXkEyXkFqcGdeQXVyNTg5OTkyNzM@.jpg"
+        },
+        {
+            "imdbId": "0424684",
+            "name": "Bryce Johnson",
+            "role": "AAF Officer 2",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMDg5OWNjMDctYTI4NS00Yzc0LWI1MjAtYTI2NmNmZjU5MDMyXkEyXkFqcGdeQXVyMTA5NTQ0NzQ@.jpg"
+        },
+        {
+            "imdbId": "6898446",
+            "name": "Flora Nolan",
+            "role": "Burn Victim",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMmY2YjVlOTgtYjliNS00ZDFhLWEzN2EtMWIxOGQ1YjlkYWNmXkEyXkFqcGdeQXVyNjUxMjc1OTM@.jpg"
+        },
+        {
+            "imdbId": "6073018",
+            "name": "Kerry Westcott",
+            "role": "Laughing Woman",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMGU2MzI0ZGQtNTUwMS00NmE0LWE2Y2UtZGViNjRhMDQ0NDNlXkEyXkFqcGdeQXVyOTIyMzgyODI@.jpg"
+        },
+        {
+            "imdbId": "2987162",
+            "name": "Christina Hogue",
+            "role": "Kissing Woman",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BNzQ1NWM1NDMtYTU3NC00YmViLWFjOGQtMzFjMGRlMDgzZGY4XkEyXkFqcGdeQXVyMTcyMTMyMTM@.jpg"
+        },
+        {
+            "imdbId": "1845021",
+            "name": "Clay Bunker",
+            "role": "Kissing Man",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMmE3MThmYzEtMTBlYy00MjUyLWJhOGUtMzE4YjY4MmQwOGUzXkEyXkFqcGdeQXVyNDI0NzMwMjQ@.jpg"
+        },
+        {
+            "imdbId": "7950766",
+            "name": "Tyler Beardsley",
+            "role": "Weeping Man",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BZDFlYTU0OTItZDVkMy00ZmI5LTkzZTctNGE0NjBhNzRkY2E4XkEyXkFqcGdeQXVyNjYwMzY5MDA@.jpg"
+        },
+        {
+            "imdbId": "5754496",
+            "name": "Maria Teresa Zuppetta",
+            "role": "Consoling Woman",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMjg4OTkxNzUtOGQ0My00MzQxLWIyZmItMzIyY2FlZTRhMDcxXkEyXkFqcGdeQXVyMTA3MDk2NDg2.jpg"
+        },
+        {
+            "imdbId": "2342578",
+            "name": "Kate French",
+            "role": "Presidential Aide",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTM3OTA1NTA1MV5BMl5BanBnXkFtZTcwMjU4MzUwNw@@.jpg"
+        },
+        {
+            "imdbId": "0000198",
+            "name": "Gary Oldman",
+            "role": "Harry Truman",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTc3NTM4MzQ5MV5BMl5BanBnXkFtZTcwOTE4MDczNw@@.jpg"
+        },
+        {
+            "imdbId": "0492789",
+            "name": "Hap Lawrence",
+            "role": "Lyndon Johnson",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMjJkZTkxYzctNTZiOC00ZjE3LWExOTEtNTIxYTQ1ODAzMTA4XkEyXkFqcGdeQXVyMDM3NjI4MA@@.jpg"
+        },
+        {
+            "imdbId": "11204973",
+            "name": "Alan Duncan",
+            "role": "Richard Harrison, Kitty's Husband",
+            "note": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BNDAzMTI1NTUtYWU0Yi00OWM1LWE2ZDctZWJkYTY5MTI1MWMzXkEyXkFqcGdeQXVyMTI2NDg2ODU@.jpg"
+        }
+    ],
+    "productionCountriesCodes": [
+        "us",
+        "gb"
+    ],
+    "colorInfo": [
+        "Color"
+    ],
+    "languagesCodes": [
+        "en",
+        "de",
+        "it"
+    ],
+    "IMDBRating": 8.4,
+    "boxOffice": {
+        "Budget": "$100,000,000 (estimated)",
+        "Cumulative Worldwide Gross": "$628,572,000"
+    },
+    "director": [
+        {
+            "imdbId": "0634240",
+            "name": "Christopher Nolan",
+            "notes": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BNjE3NDQyOTYyMV5BMl5BanBnXkFtZTcwODcyODU2Mw@@.jpg"
+        }
+    ],
+    "writer": [
+        {
+            "imdbId": "0634240",
+            "name": "Christopher Nolan",
+            "notes": "(written for the screen by)",
+            "img": "https://m.media-amazon.com/images/M/MV5BNjE3NDQyOTYyMV5BMl5BanBnXkFtZTcwODcyODU2Mw@@.jpg"
+        },
+        {
+            "imdbId": "",
+            "name": "",
+            "notes": "",
+            "img": ""
+        },
+        {
+            "imdbId": "3284831",
+            "name": "Kai Bird",
+            "notes": "(book \"American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer\")",
+            "img": "https://m.media-amazon.com/images/M/MV5BMjg4OTkxNzUtOGQ0My00MzQxLWIyZmItMzIyY2FlZTRhMDcxXkEyXkFqcGdeQXVyMTA3MDk2NDg2.jpg"
+        },
+        {
+            "imdbId": "2452558",
+            "name": "Martin Sherwin",
+            "notes": "(book \"American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer\") (as Martin J. Sherwin)",
+            "img": "https://m.media-amazon.com/images/M/MV5BMjg4OTkxNzUtOGQ0My00MzQxLWIyZmItMzIyY2FlZTRhMDcxXkEyXkFqcGdeQXVyMTA3MDk2NDg2.jpg"
+        }
+    ],
+    "producer": [
+        {
+            "imdbId": "0371669",
+            "name": "Thomas Hayslip",
+            "notes": "executive producer",
+            "img": "https://m.media-amazon.com/images/M/MV5BMmMwZDk3NTktNGE5OS00YWEzLTliZjUtMWQxMmJjZGMzMWMwXkEyXkFqcGdeQXVyMjgyOTI1ODY@.jpg"
+        },
+        {
+            "imdbId": "0749781",
+            "name": "Helen Medrano",
+            "notes": "associate producer",
+            "img": "https://m.media-amazon.com/images/M/MV5BYjFhMjIxMzUtOTA1MS00MDRhLWFkMDEtYTYzNTJkNjlkMjkwXkEyXkFqcGdeQXVyMDExODE3OQ@@.jpg"
+        },
+        {
+            "imdbId": "0634240",
+            "name": "Christopher Nolan",
+            "notes": "producer (p.g.a.)",
+            "img": "https://m.media-amazon.com/images/M/MV5BNjE3NDQyOTYyMV5BMl5BanBnXkFtZTcwODcyODU2Mw@@.jpg"
+        },
+        {
+            "imdbId": "0746273",
+            "name": "Charles Roven",
+            "notes": "producer (p.g.a.)",
+            "img": "https://m.media-amazon.com/images/M/MV5BODE2NzE0MjYyOV5BMl5BanBnXkFtZTgwNzQxNzU5MDE@.jpg"
+        },
+        {
+            "imdbId": "0858799",
+            "name": "Emma Thomas",
+            "notes": "producer (p.g.a.)",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTM3MzYwNzM5NV5BMl5BanBnXkFtZTcwODUzNDMyMw@@.jpg"
+        },
+        {
+            "imdbId": "3379670",
+            "name": "Andy Thompson",
+            "notes": "co-producer",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTkwZDcwYmEtMDgxZi00MzE3LWFkNTctYTJhZTE1ZDJkMTEzXkEyXkFqcGdeQXVyNjUwNzk3NDc@.jpg"
+        },
+        {
+            "imdbId": "11356994",
+            "name": "J. David Wargo",
+            "notes": "executive producer",
+            "img": "https://m.media-amazon.com/images/M/MV5BNjU2YzI3ZmUtZWYxNC00M2JkLTkzN2QtMTdhMDdmM2IxYWE0XkEyXkFqcGdeQXVyMTMxMTYzMTE1.jpg"
+        },
+        {
+            "imdbId": "0000249",
+            "name": "James Woods",
+            "notes": "executive producer",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTM3NTEzNjI5NV5BMl5BanBnXkFtZTcwNjQzOTkwNA@@.jpg"
+        }
+    ],
+    "composer": [
+        {
+            "imdbId": "3234869",
+            "name": "Ludwig Göransson",
+            "notes": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTExOTgwNDAzODZeQTJeQWpwZ15BbWU4MDMxOTQ1Mzcz.jpg"
+        }
+    ],
+    "cinematographer": [
+        {
+            "imdbId": "0887227",
+            "name": "Hoyte Van Hoytema",
+            "notes": "director of photography",
+            "img": "https://m.media-amazon.com/images/M/MV5BYjk3NWQyZDgtNGRlMS00MzNjLWI4MzMtZDFlN2JiMDI4NWY3XkEyXkFqcGdeQXVyNjUwNzk3NDc@.jpg"
+        }
+    ],
+    "editor": [
+        {
+            "imdbId": "2352780",
+            "name": "Jennifer Lame",
+            "notes": "",
+            "img": "https://m.media-amazon.com/images/M/MV5BMDA3YmVjYzQtMzRhOC00YzJkLThiMjktNmQ0Y2Q4YjZlOGI4XkEyXkFqcGdeQXVyNjUwNzk3NDc@.jpg"
+        }
+    ]
+}

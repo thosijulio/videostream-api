@@ -10,7 +10,7 @@ const deleteUser = async (req: Request, res: Response) => {
     messages,
   } = req;
   const {
-    users: {
+    user: {
       general: { INVALID_EMAIL },
       deleteUser: { USER_DELETED },
     },

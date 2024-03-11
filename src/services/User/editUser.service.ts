@@ -18,7 +18,7 @@ type EditUser = {
 const editUser = async (payload: EditUser, userEmail: string, messages: Messages) => {
   const userToEdit = await prisma.user.findUnique({ where: { email: userEmail } });
   const {
-    users: {
+    user: {
       editUser: { USER_DOESNT_EXISTS },
     },
   } = messages;

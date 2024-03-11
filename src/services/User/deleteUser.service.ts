@@ -4,7 +4,7 @@ import Messages from '../../types/Messages';
 
 const deleteUser = async (email: string, messages: Messages) => {
   const {
-    users: {
+    user: {
       deleteUser: { USER_DOESNT_EXIST },
     },
   } = messages;
