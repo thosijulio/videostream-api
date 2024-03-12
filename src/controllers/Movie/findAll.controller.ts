@@ -4,8 +4,8 @@ import { StatusCodes } from 'http-status-codes';
 import verifyQueryParamsfindAll from '../../utils/Movie/verifyQueryParamsFindAll';
 import getLocale from '../../utils/getLocale';
 
-const findAllMovies = async (req: Request, res: Response) => {
-  const [limit, page] = verifyQueryParamsfindAll(req.query, req.messages);
+const findAllMovies = async ({ query, messages, headers }: Request, res: Response) => {
+  const [limit, page] = verifyQueryParamsfindAll(query, messages);
   const {
     user: {
       findAll: { NO_USERS_FOUND },
@@ -13,9 +13,9 @@ const findAllMovies = async (req: Request, res: Response) => {
     general: {
       success: { OK },
     },
-  } = req.messages;
+  } = messages;
 
-  const result = await movieService.findAll(limit, getLocale(req.headers.locale), page);
+  const result = await movieService.findAll(limit, getLocale(headers.locale), page, messages);
 
   if (result) {
     const { results, total, next } = result;
@@ -30,9 +30,6 @@ const findAllMovies = async (req: Request, res: Response) => {
     return res
       .status(StatusCodes.OK)
       .json({ message: OK, data: { results, count: results.length, total, page, next } });
-  } else {
-    console.log(result);
-    return res.status(404).json({ status: 'erro' });
   }
 };
 

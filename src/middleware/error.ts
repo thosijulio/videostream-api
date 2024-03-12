@@ -19,7 +19,7 @@ const errorMiddleware = (
     message = error.message;
     statusCode = error.statusCode;
   } else {
-    console.log(error.message);
+    console.error(error.message);
     message = generalMessages.errors.UNKNOWN_ERROR;
     statusCode = StatusCodes.INTERNAL_SERVER_ERROR;
   }

@@ -1,10 +1,11 @@
 {
   "findAll": {
-    "NO_MOVIE_FOUND": "Nenhum filme encontrado.",
-    "PAGE_PARAM_MUST_BE_NUMBER": "'Page' deve ser um número válido.",
-    "PAGE_PARAM_MUST_BE_GT_0": "'Page' deve ser maior que 0.",
+    "ERROR_FETCH_MOVIE": "Erro ao buscar filmes. Tente novamente.",
     "LIMIT_PARAM_MUST_BE_NUMBER": "'Limit' deve ser um número válido.",
     "LIMIT_PARAM_MUST_BE_LTE_50": "'Limit' deve ser menor ou igual a 50.",
-    "LIMIT_PARAM_MUST_BE_GT_0": "'Limit' deve ser maior que 0."
+    "LIMIT_PARAM_MUST_BE_GT_0": "'Limit' deve ser maior que 0.",
+    "NO_MOVIE_FOUND": "Nenhum filme encontrado.",
+    "PAGE_PARAM_MUST_BE_NUMBER": "'Page' deve ser um número válido.",
+    "PAGE_PARAM_MUST_BE_GT_0": "'Page' deve ser maior que 0."
   }
 }

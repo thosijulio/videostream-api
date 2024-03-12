@@ -27,12 +27,13 @@ const getMessages = (language: Locale = 'ptBR') => ({
   },
   movie: {
     findAll: {
-      NO_MOVIE_FOUND: MESSAGES[language].movie.findAll.NO_MOVIE_FOUND,
-      PAGE_PARAM_MUST_BE_NUMBER: MESSAGES[language].movie.findAll.PAGE_PARAM_MUST_BE_NUMBER,
-      PAGE_PARAM_MUST_BE_GT_0: MESSAGES[language].movie.findAll.PAGE_PARAM_MUST_BE_GT_0,
+      ERROR_FETCH_MOVIE: MESSAGES[language].movie.findAll.ERROR_FETCH_MOVIE,
       LIMIT_PARAM_MUST_BE_NUMBER: MESSAGES[language].movie.findAll.LIMIT_PARAM_MUST_BE_NUMBER,
       LIMIT_PARAM_MUST_BE_LTE_50: MESSAGES[language].movie.findAll.LIMIT_PARAM_MUST_BE_LTE_50,
       LIMIT_PARAM_MUST_BE_GT_0: MESSAGES[language].movie.findAll.LIMIT_PARAM_MUST_BE_GT_0,
+      NO_MOVIE_FOUND: MESSAGES[language].movie.findAll.NO_MOVIE_FOUND,
+      PAGE_PARAM_MUST_BE_NUMBER: MESSAGES[language].movie.findAll.PAGE_PARAM_MUST_BE_NUMBER,
+      PAGE_PARAM_MUST_BE_GT_0: MESSAGES[language].movie.findAll.PAGE_PARAM_MUST_BE_GT_0,
     },
   },
   user: {

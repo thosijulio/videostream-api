@@ -1,9 +1,11 @@
 import userController from './User';
 import authController from './Auth';
 import movieController from './Movie';
+import watchController from './Watch';
 
 export default {
-  userController,
   authController,
   movieController,
+  userController,
+  watchController,
 };
