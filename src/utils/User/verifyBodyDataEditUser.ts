@@ -20,8 +20,8 @@ const verifyBodyDataEditUser = (
     },
   }: Messages
 ) => {
-  const { email, password, firstName, lastName, username, document, birthDate, roleId } = data;
-  if (!email && !password && !firstName && !lastName && !username && !document && !birthDate && !roleId) {
+  const { email, password, firstName, lastName, username, document, birthDate, roleId, id } = data;
+  if (!email && !password && !firstName && !lastName && !username && !document && !birthDate && !roleId && !id) {
     throw new BadRequestError(ERROR_EMPTY_BODY);
   }
 
@@ -30,7 +30,7 @@ const verifyBodyDataEditUser = (
   for (let index = 0; index < dataKeys.length; index += 1) {
     if (dataKeys[index] === 'roleId' && typeof data.roleId !== 'number')
       throw new BadRequestError(`${dataKeys[index]} ${ERROR_KEY_MUST_BE_NUMBER}`);
-    if (typeof data[dataKeys[index]] !== 'string')
+    if (dataKeys[index] !== 'roleId' && dataKeys[index] !== 'id' && typeof data[dataKeys[index]] !== 'string')
       throw new BadRequestError(`${dataKeys[index]} ${ERROR_KEY_MUST_BE_STRING}`);
   }
 };

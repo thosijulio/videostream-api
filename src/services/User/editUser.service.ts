@@ -29,15 +29,21 @@ const editUser = async (payload: EditUser, userEmail: string, messages: Messages
 
     // Loop p/ verificar se é necessário editar algo no banco
     for (let index = 0; index < userKeys.length; index += 1) {
-      if (payload[userKeys[index]] && userToEdit[userKeys[index]] !== payload[userKeys[index]]) {
+      if (
+        userKeys[index] !== 'id' &&
+        payload[userKeys[index]] &&
+        userToEdit[userKeys[index]] !== payload[userKeys[index]]
+      ) {
         nothingToChange = false;
       }
     }
 
     if (nothingToChange) throw new NotModifiedRedirection();
 
+    const { id: _id, ...updatedUser } = payload; // removendo o id
+
     const result = await prisma.user.update({
-      data: payload,
+      data: updatedUser,
       where: {
         id: userToEdit.id,
       },
@@ -48,7 +54,11 @@ const editUser = async (payload: EditUser, userEmail: string, messages: Messages
         firstName: true,
         lastName: true,
         password: true,
-        role: true,
+        role: {
+          select: {
+            name: true,
+          },
+        },
         username: true,
         id: false,
         roleId: false,
